@@ -1,0 +1,86 @@
+@media (max-width: 800px) {
+    .receitas {
+        padding: 10px;
+    }
+}
+
+@font-face {
+    font-family: "Sofia";
+    src: url("Sofia.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.logotipo {
+    width: 10%;
+    max-width: 50px;
+    height: auto;
+}
+
+.textologo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.texto-inicio {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.cor-texto-inicio {
+    color: #0f365d;
+}
+
+.cabecalho {
+    min-height: 60px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.receitas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.receita {
+    min-height: 400px;
+    background-color: burlywood;
+}
+
+.nome-receita {
+    font-family: Sofia;
+    font-weight: bold;
+    font-size: 18pt;
+    padding: 5px;
+}
+
+.rodape {
+    min-height: 25px;
+}
+
+.cores-menu-rodape {
+    background-color: #0f365d;
+    color: #ffa141;
+}
+
+.cores-principal {
+    background-color: #ffa141;
+    color: #0f365d;
+}
+
+.card {
+    margin: 10px;
+    /* Espaço ao redor de cada card */
+}
